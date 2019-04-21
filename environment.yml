@@ -1,0 +1,14 @@
+name: example-environment
+channels:
+  - conda-forge
+  - damianavila82
+dependencies:
+  - python
+  - numpy
+  - rise
+  - pip:
+    - nbgitpuller
+    - sphinx-gallery
+    - pandas
+    - matplotlib
+    - scipy
